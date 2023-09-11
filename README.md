@@ -62,7 +62,55 @@ Create a new HTML file and save it as `index.html`. Add the following code to yo
 Create a new CSS file and save it as `style.css`. Add the following code to your CSS file:
 
 ```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#info-card {
+    text-align: center;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+    flex: 1;
+}
+
+#user-info span {
+    flex: 2;
+    color: #444;
+    text-align: left;
+    padding-left: 10px;
+}
 
 ```
 ### Step 3: Create a New js File
